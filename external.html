@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navigation Menu Example</title>
+<style>
+ body {
+            font-family: Arial, sans-serif;
+        }
+
+ /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+        }
+
+  .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+        }
+
+        .navbar li {
+            display: inline-block;   /* Inline-block used */
+        }
+
+  .navbar a {
+   display: block;          /* Block used */
+   padding: 15px 20px;
+  color: white;
+ text-decoration: none;
+        }
+
+ .navbar a:hover {
+  background-color: #555;
+        }
+
+ /* Float Example */
+        .box {
+ width: 30%;
+ padding: 20px;
+ margin: 10px;
+ float: left;             /* Float used */
+ background-color: lightblue;
+        }
+
+  /* Clear Example */
+  .clear {
+  clear: both;             /* Clear used */
+        }
+
+ .footer {
+  background-color: black;
+   color: white;
+  text-align: center;
+padding: 10px;
+        }
+
+  /* Inline Example */
+  span {
+   display: inline;         /* Inline used */
+  color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Navigation Menu Using Block, Inline, Inline-Block, Float and Clear</h2>
+
+    <!-- Navigation Menu -->
+    <div class="navbar">
+        <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+   <li><a href="#">Services</a></li>
+  <li><a href="#">Contact</a></li>
+  </ul>
+  </div>
+
+ <br>
+
+<!-- Float Boxes -->
+<div class="box">Box 1 (Float Left)</div>
+<div class="box">Box 2 (Float Left)</div>
+<div class="box">Box 3 (Float Left)</div>
+
+<div class="clear"></div>
+
+<p>This is an example of <span>inline element</span> inside paragraph.</p>
+
+<div class="footer">
+Footer Section (Clear Applied Above)
+ </div>
+
+</body>
+</html>
